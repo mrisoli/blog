@@ -88,7 +88,7 @@ class BlogPostTemplate extends React.Component {
       enSlug.length - 1
     )}/index${lang === 'en' ? '' : '.' + lang}.md`;
     const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
-      `https://overreacted.io${enSlug}`
+      `https://risoli.co${enSlug}`
     )}`;
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -150,7 +150,7 @@ class BlogPostTemplate extends React.Component {
             }}
             to={'/'}
           >
-            Overreacted
+            Marcelo Risoli
           </Link>
         </h3>
         <Bio />
