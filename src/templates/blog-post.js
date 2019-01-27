@@ -6,7 +6,6 @@ import '../fonts/fonts-post.css';
 import Bio from '../components/Bio';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
-import Signup from '../components/Signup';
 import { formatReadingTime } from '../utils/helpers';
 import { rhythm, scale } from '../utils/typography';
 import {
@@ -136,7 +135,6 @@ class BlogPostTemplate extends React.Component {
             fontFamily: systemFont,
           }}
         >
-          <Signup />
         </div>
         <h3
           style={{
