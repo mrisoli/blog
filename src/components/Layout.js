@@ -45,7 +45,7 @@ class Layout extends React.Component {
       return (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: 'Poppins, sans-serif',
             marginTop: 0,
             marginBottom: rhythm(-1),
             minHeight: '3.5rem',
