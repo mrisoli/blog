@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Marcelo Risoli',
     author: 'Marcelo Risoli',
-    description: 'Personal blog by Marcelo Risoli.',
+    description: 'Personal blog by Marcelo Risoli. Talking about code and products',
     siteUrl: 'https://risoli.co',
     social: {
       twitter: '@mgrisoli',
