@@ -132,7 +132,7 @@ module.exports = {
         short_name: `Risoli`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#ffa7c4`,
+        theme_color: `#20d3d4`,
         display: `minimal-ui`,
         icon: `src/assets/icon.png`,
       },
