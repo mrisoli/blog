@@ -6,8 +6,8 @@ body.light {
   --bg: #ffffff;
   --header: var(--teal);
   --textNormal: #222;
+  --textLink: var(--teal);
   --textTitle: #222;
-  --textLink: #20D3D4;
   --hr: hsla(0, 0%, 0%, 0.2);
   --inlineCode-bg: rgba(255, 229, 100, 0.2);
   --inlineCode-text: #1a1a1a;
@@ -17,8 +17,8 @@ body.dark {
   --bg: #282c35;
   --header: #ffffff;
   --textNormal: rgba(255, 255, 255, 0.88);
+  --textLink: #85E7E7;
   --textTitle: #ffffff;
-  --textLink: var(--teal);
   --hr: hsla(0, 0%, 100%, 0.2);
   --inlineCode-bg: hsl(222, 14%, 25%);
   --inlineCode-text: #e6e6e6;
