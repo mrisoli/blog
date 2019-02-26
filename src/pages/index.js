@@ -30,7 +30,7 @@ class BlogIndex extends React.Component {
             <div key={node.fields.slug}>
               <h3
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
+                  fontFamily: 'Poppins, sans-serif',
                   fontSize: rhythm(1),
                   marginBottom: rhythm(1 / 4),
                 }}
