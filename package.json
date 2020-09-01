@@ -4,12 +4,16 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "next": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.1.1"
+  }
 }
