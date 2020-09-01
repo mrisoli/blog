@@ -1,7 +1,4 @@
+import Layout from '../components/layouts/main'
 export default function IndexPage() {
-  return (
-    <div>
-      Hello World.{' '}
-    </div>
-  )
+  return <Layout>content</Layout>
 }
