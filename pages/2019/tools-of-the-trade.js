@@ -1,8 +1,7 @@
 import Post from '../../components/layouts/post'
 import Header from '../../components/post/header'
 import P from '../../components/post/paragraph'
-import { H2, H3 } from "../../components/post/heading";
-
+import {H2, H3} from '../../components/post/heading'
 
 export default () => (
   <Post>
@@ -21,9 +20,7 @@ export default () => (
       things change.
     </P>
 
-    <H2 id="static-site">
-      Static site/Blog
-    </H2>
+    <H2 id="static-site">Static site/Blog</H2>
 
     <P>
       This blog is built with{' '}
@@ -76,22 +73,26 @@ export default () => (
     </P>
 
     <P>
-      UPDATE: I've switched this blog to be a next.js app hosted on Vercel(formerly ZEIT), purely out of personal preference.
+      UPDATE: I've switched this blog to be a next.js app hosted on
+      Vercel(formerly ZEIT), purely out of personal preference.
     </P>
 
-    <H3 id="static-site-runner-ups">
-      Runner ups
-    </H3>
+    <H3 id="static-site-runner-ups">Runner ups</H3>
 
-    <H3 id="static-site-agains-medium">
-      The case against Medium
-    </H3>
+    <H3 id="static-site-agains-medium">The case against Medium</H3>
 
     <P>
       <a href={links[9]} target="_blank">
         I have blogged through Medium
       </a>{' '}
-      before, most of it was to try some forms of content writing, and see what sticks, while centralizing within a content network makes it easier to aggregate views, I found it to encourage simpler, buzzwordy pieces of content that most of the time are not valuable. It also goes against the initial goals of the web, as Medium also adds bigger popups and footers to increase subscription rates and app install counts, it has lost some of its initial allure that promised a clean, content-focused website, and, as a developer, I found it a good hobby to maintain my own website.
+      before, most of it was to try some forms of content writing, and see what
+      sticks, while centralizing within a content network makes it easier to
+      aggregate views, I found it to encourage simpler, buzzwordy pieces of
+      content that most of the time are not valuable. It also goes against the
+      initial goals of the web, as Medium also adds bigger popups and footers to
+      increase subscription rates and app install counts, it has lost some of
+      its initial allure that promised a clean, content-focused website, and, as
+      a developer, I found it a good hobby to maintain my own website.
     </P>
 
     <P>
@@ -103,14 +104,21 @@ export default () => (
       <a href={links[11]} target="_blank">
         Jekyll
       </a>{' '}
-      a few times, I've found Hugo to be easier to setup even if Jekyll is not that far behind, being older Jekyll also has way more options for themes. Hugo also seems faster. My choice for Gatsby was mostly based on finding it easy to work with the blog starter and the theme.
+      a few times, I've found Hugo to be easier to setup even if Jekyll is not
+      that far behind, being older Jekyll also has way more options for themes.
+      Hugo also seems faster. My choice for Gatsby was mostly based on finding
+      it easy to work with the blog starter and the theme.
     </P>
 
     <P>
       <a href={links[12]} target="_blank">
         Wordpress
       </a>{' '}
-      is a better solution for some companies and is a way more complete CMS, as I didn't intend to do much more than simple writing, I prefered a static site generator since it won't require any hosting and databases and it will all be versioned in a hosted VCS. Static sites will also outperform Wordpress easily, however, Wordpress has better SEO tooling.
+      is a better solution for some companies and is a way more complete CMS, as
+      I didn't intend to do much more than simple writing, I prefered a static
+      site generator since it won't require any hosting and databases and it
+      will all be versioned in a hosted VCS. Static sites will also outperform
+      Wordpress easily, however, Wordpress has better SEO tooling.
     </P>
 
     <H2 id="developer-tools">Developer tools</H2>
@@ -124,7 +132,8 @@ export default () => (
       <a href={links[14]} target="_blank">
         iTerm2
       </a>
-      , as much as it is easier to customize Hyper, I find myself using theme defaults, and Hyper is not yet fast enough as it is still an Electron app.
+      , as much as it is easier to customize Hyper, I find myself using theme
+      defaults, and Hyper is not yet fast enough as it is still an Electron app.
     </P>
 
     <P>
@@ -136,7 +145,8 @@ export default () => (
       <a href={links[16]} target="_blank">
         oh-my-zsh
       </a>{' '}
-      as terminal tooling, most of my work is in the terminal as I prefer Vim to any other editor, I've also started collecting my
+      as terminal tooling, most of my work is in the terminal as I prefer Vim to
+      any other editor, I've also started collecting my
       <a href={links[17]} target="_blank">
         dotfiles
       </a>{' '}
@@ -144,7 +154,8 @@ export default () => (
     </P>
 
     <P>
-      I am still not sure about programming fonts, but I am growing fond of Iosevka at the moment.
+      I am still not sure about programming fonts, but I am growing fond of
+      Iosevka at the moment.
     </P>
 
     <P>
@@ -162,7 +173,8 @@ export default () => (
     <H3 id="coding-runner-up">Runners up</H3>
 
     <P>
-      While I use nothing but vim for a while now, I usually recommend and I am very impressed at how good{' '}
+      While I use nothing but vim for a while now, I usually recommend and I am
+      very impressed at how good{' '}
       <a href={links[20]} target="_blank">
         Visual Studio Code
       </a>{' '}
@@ -172,7 +184,9 @@ export default () => (
     <H2 id="coding">Coding in</H2>
 
     <P>
-      Most of my work is JavaScript and React these days, preferably Typescript. I also enjoy Vue.JS and will be trying the newest, shiny JavaScript framework du jour from time to time.
+      Most of my work is JavaScript and React these days, preferably Typescript.
+      I also enjoy Vue.JS and will be trying the newest, shiny JavaScript
+      framework du jour from time to time.
     </P>
 
     <P>
@@ -180,7 +194,8 @@ export default () => (
       <a href={links[21]} target="_blank">
         Project Euler
       </a>{' '}
-      to learn about programming languages and stimulate problem solving as a hobby, I've solved over
+      to learn about programming languages and stimulate problem solving as a
+      hobby, I've solved over
       <a href={links[22]} target="_blank">
         80 of them
       </a>{' '}
@@ -190,8 +205,8 @@ export default () => (
     <H3 id="coding-learn">I should learn</H3>
 
     <P>
-      A few programming languages and technologies which I haven't touched much yet but I am eager to learn:
-
+      A few programming languages and technologies which I haven't touched much
+      yet but I am eager to learn:
       <ul>
         <li>Kotlin</li>
         <li>Swift</li>
@@ -206,22 +221,28 @@ export default () => (
     <H2 id="productivity">Productivity</H2>
 
     <P>
-      This one is a big for me, I've tried just about every productivity app I can find, I am slowly settling on{' '}
+      This one is a big for me, I've tried just about every productivity app I
+      can find, I am slowly settling on{' '}
       <a href={links[22]} target="_blank">
         Notion
       </a>{' '}
-      because of how simple and flexible it is, migrating from Evernote and Google Keep, however I still use
+      because of how simple and flexible it is, migrating from Evernote and
+      Google Keep, however I still use
       <a href={links[23]} target="_blank">
         Todoist
       </a>{' '}
-      for tasks as it is still one of the better tools out there for the job including presence in the biggest amount of platforms I've found so far, I still think there is room for improvement in all of these, I miss keybindings in most productivity software.
+      for tasks as it is still one of the better tools out there for the job
+      including presence in the biggest amount of platforms I've found so far, I
+      still think there is room for improvement in all of these, I miss
+      keybindings in most productivity software.
     </P>
 
     <P>
       <a href={links[24]} target="_blank">
         Toby
       </a>{' '}
-      is my new tab page on Chrome, it has replaced Pocket for me and works better than normal bookmarks.
+      is my new tab page on Chrome, it has replaced Pocket for me and works
+      better than normal bookmarks.
     </P>
 
     <H3>Runner ups</H3>
@@ -261,7 +282,8 @@ export default () => (
     </P>
 
     <P>
-      This has revealed that Instagram is my most commonly used app and is my primary social networking activity, you can still find my resume on{' '}
+      This has revealed that Instagram is my most commonly used app and is my
+      primary social networking activity, you can still find my resume on{' '}
       <a href={links[31]} target="_blank">
         LinkedIn
       </a>{' '}
@@ -281,7 +303,8 @@ export default () => (
       <a href={links[33]} target="_blank">
         Mastodon
       </a>{' '}
-      decentralized approach, although I haven't found much within the community yet{' '}
+      decentralized approach, although I haven't found much within the community
+      yet{' '}
     </P>
 
     <P>
@@ -289,7 +312,8 @@ export default () => (
       <a href={links[34]} target="_blank">
         Station
       </a>{' '}
-      as a tool to aggregate communication tools, while most communities I participate use{' '}
+      as a tool to aggregate communication tools, while most communities I
+      participate use{' '}
       <a href={links[35]} target="_blank">
         Slack
       </a>
@@ -310,8 +334,8 @@ export default () => (
       and Reddit. I also enjoy the mechanics behind{' '}
       <a href={links[38]} target="_blank">
         Nuzzel
-      </a>.{' '}
-      I also check{' '}
+      </a>
+      . I also check{' '}
       <a href={links[39]} target="_blank">
         Product Hunt
       </a>{' '}
