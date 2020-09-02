@@ -2,11 +2,12 @@ import css from 'styled-jsx/css'
 
 const style = css.global`
   body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: Nunito, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
   a[href] {
     color: var(--link-color);
+    text-decoration: none;
   }
 `
 

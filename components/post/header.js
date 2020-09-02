@@ -100,6 +100,7 @@ export default ({title, date}) => {
         @media (any-hover: hover) {
           nav a:hover {
             color: var(--link-color);
+            text-decoration: none;
           }
         }
         @media (min-width: 500px) {
