@@ -12,9 +12,9 @@ const Analytics = () => (
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'UA-86504769-1');
-        `
+        `,
       }}
     />
- </>
+  </>
 )
 export default Analytics

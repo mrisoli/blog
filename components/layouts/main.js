@@ -9,7 +9,10 @@ const Layout = ({children}) => {
   return (
     <main>
       <Head>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&family=Roboto&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&family=Roboto&display=swap"
+          rel="stylesheet"
+        />
         <Analytics />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Marcelo Risoli's blog</title>
