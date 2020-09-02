@@ -3,7 +3,7 @@ import Header from '../../components/post/header'
 import P from '../../components/post/paragraph'
 import {H2, H3} from '../../components/post/heading'
 
-export default () => (
+const Article = () => (
   <Post>
     <Header title="Tools of the Trade" date="March 27, 2019" />
     <P>
@@ -389,3 +389,5 @@ const links = [
   'https://nuzzel.com/',
   'https://www.producthunt.com/',
 ]
+
+export default Article
