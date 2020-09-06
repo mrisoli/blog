@@ -49,6 +49,13 @@ const Article = () => (
     </P>
 
     <P>
+      Also as a minor project I moved this blog from using Gatsby to a more simpler, blog with Next.js ripping off{' '}
+      <a href={links[3]} target="_blank">
+        rauchg.com
+      </a>'s design with some minor modifications and trying out Vercel's hosting and deployment for next.js Websites, I'm happy with the result so far.
+    </P>
+
+    <P>
       I still want to come up with some side projects, either some form of
       digital content like an ebook or a newsletter. I've been toying around
       with no code tools and flirting with the idea of working remote as a
@@ -65,5 +72,6 @@ const links = [
   'https://www.typeform.com/',
   'https://gumroad.com/',
   'https://leanpub.com/',
+  'https://rauchg.com/',
 ]
 export default Article
