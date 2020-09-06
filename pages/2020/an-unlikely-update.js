@@ -37,7 +37,7 @@ const Article = () => (
       hustles into businesses with the likes of{' '}
       <a href={links[1]} target="_blank">
         Gumroad
-      </a>
+      </a>{' '}
       and{' '}
       <a href={links[2]} target="_blank">
         Leanpub
