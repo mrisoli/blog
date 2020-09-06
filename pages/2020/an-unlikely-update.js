@@ -49,10 +49,13 @@ const Article = () => (
     </P>
 
     <P>
-      Also as a minor project I moved this blog from using Gatsby to a more simpler, blog with Next.js ripping off{' '}
+      Also as a minor project I moved this blog from using Gatsby to a simpler,
+      blog with Next.js ripping off{' '}
       <a href={links[3]} target="_blank">
         rauchg.com
-      </a>'s design with some minor modifications and trying out Vercel's hosting and deployment for next.js Websites, I'm happy with the result so far.
+      </a>
+      's design with some minor modifications and trying out Vercel's hosting
+      and deployment for next.js Websites, I'm happy with the result so far.
     </P>
 
     <P>
