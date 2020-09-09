@@ -5,8 +5,8 @@ import P from '../../components/post/paragraph'
 const Article = () => (
   <Post>
     <Header
-      title="Making Technical Decisions on the Internet"
-      date="September 7, 2020"
+      title="Choosing Typescript"
+      date="September 9, 2020"
     />
 
     <P>Content goes here</P>
