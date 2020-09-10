@@ -16,7 +16,17 @@ const Layout = ({children}) => {
         <link rel="shortcut icon" href="/static/favicon.ico" />
         <Analytics />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="risoli" data-description="Support me on Buy me a coffee!" data-message="If you would like to support me, buy me a coffee!" data-color="#FF813F" data-position="" data-x_margin="18" data-y_margin="18"></script>
+        <script
+          data-name="BMC-Widget"
+          src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+          data-id="risoli"
+          data-description="Support me on Buy me a coffee!"
+          data-message="If you would like to support me, buy me a coffee!"
+          data-color="#FF813F"
+          data-position=""
+          data-x_margin="18"
+          data-y_margin="18"
+        ></script>
         <title>Marcelo Risoli's blog</title>
       </Head>
 
