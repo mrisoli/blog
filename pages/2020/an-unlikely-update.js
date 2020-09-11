@@ -21,13 +21,13 @@ const Article = () => (
       <a href={links[0]} target="_blank">
         Typeform
       </a>{' '}
-      as a Senior Frontend Engineer earlier this year.
+      as a Senior front-end Engineer earlier this year.
     </P>
 
     <P>
       This all happened just before COVID-19 spread around the world and
-      lockdowns started happening, while my first month in Barcelona was
-      exciting and promising it was followed by a strict lockdown and I, like
+      lock downs started happening, while my first month in Barcelona was
+      exciting and promising it was followed by a strict lock down and I, like
       many others, have been working remote ever since.
     </P>
 
@@ -60,7 +60,7 @@ const Article = () => (
 
     <P>
       I still want to come up with some side projects, either some form of
-      digital content like an ebook or a newsletter. I've been toying around
+      digital content like an e-book or a newsletter. I've been toying around
       with no code tools and flirting with the idea of working remote as a
       digital nomad, I still don't promote this blog so I am writing randomly
       just whatever comes to my mind, I might still write some posts in the near

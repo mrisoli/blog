@@ -69,7 +69,7 @@ const Article = () => (
       <a href={links[8]} target="_blank">
         boilerplate
       </a>{' '}
-      to aggregate some of the most use toolings that I couple next.js with.{' '}
+      to aggregate some of the most use tooling that I couple next.js with.{' '}
     </P>
 
     <P>
@@ -79,7 +79,7 @@ const Article = () => (
 
     <H3 id="static-site-runner-ups">Runner ups</H3>
 
-    <H3 id="static-site-agains-medium">The case against Medium</H3>
+    <H3 id="static-site-against-medium">The case against Medium</H3>
 
     <P>
       <a href={links[9]} target="_blank">
@@ -87,9 +87,9 @@ const Article = () => (
       </a>{' '}
       before, most of it was to try some forms of content writing, and see what
       sticks, while centralizing within a content network makes it easier to
-      aggregate views, I found it to encourage simpler, buzzwordy pieces of
+      aggregate views, I found it to encourage simpler, "buzzwordy" pieces of
       content that most of the time are not valuable. It also goes against the
-      initial goals of the web, as Medium also adds bigger popups and footers to
+      initial goals of the web, as Medium also adds bigger pop-ups and footers to
       increase subscription rates and app install counts, it has lost some of
       its initial allure that promised a clean, content-focused website, and, as
       a developer, I found it a good hobby to maintain my own website.
@@ -115,7 +115,7 @@ const Article = () => (
         Wordpress
       </a>{' '}
       is a better solution for some companies and is a way more complete CMS, as
-      I didn't intend to do much more than simple writing, I prefered a static
+      I didn't intend to do much more than simple writing, I preferred a static
       site generator since it won't require any hosting and databases and it
       will all be versioned in a hosted VCS. Static sites will also outperform
       Wordpress easily, however, Wordpress has better SEO tooling.

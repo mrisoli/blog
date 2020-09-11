@@ -12,8 +12,8 @@ const Article = () => (
       technical interview I was asked about several topics, including
       preferences over typed versus untyped languages(without much detail of
       statically-typed, duck-typed or any specific typing system), I have no
-      strong preference but I spoke of using Typescript over Javascript since it
-      was a frontend interview and how I had an impression of that helping with
+      strong preference but I spoke of using Typescript over JavaScript since it
+      was a front-end interview and how I had an impression of that helping with
       testing, the interviewers agreed and one of them replied claiming "static
       typing reduces on average 35% the need for unit tests". I didn't entertain
       that discussion further because it wasn't my focus, but that statement
@@ -41,10 +41,10 @@ const Article = () => (
         this article
       </a>{' '}
       which discusses the flame wars between static vs dynamic typing
-      especifically citing Typescript and Flow. It includes empyrical data and
+      specifically citing Typescript and Flow. It includes empirical data and
       explains the process in which they came up with the numbers and closes
       without a hard conclusion but leaves to the reader to decide whether
-      adopting a statically typed language over Javascript is worth it.
+      adopting a statically typed language over JavaScript is worth it.
     </P>
 
     <P>
@@ -62,7 +62,7 @@ const Article = () => (
     <P>
       Fast forward and I'm starting a new job at another company that does not
       use Typescript, they are hiring fast and a large number of developers are
-      particurlaly fond of Typescript and spark a discussion whether or not to
+      particularly fond of Typescript and spark a discussion whether or not to
       adopt it. As a company with established processes there's the need to
       create a proposal and discuss pros and cons and while there were very few
       people with strong opposition to its adoption, those who were heavy
@@ -93,7 +93,7 @@ const Article = () => (
       he claims the survey indicates Typescript can cause a 20% reduction in the
       recruiting pool while that is not a direct consequence, while the same
       question indicates over 80% positive feeling towards Typescript. There are
-      also assumptions without proper data countering Airbnb's success case of
+      also assumptions without proper data countering AirBnB's success case of
       adopting Typescript.
     </P>
 
@@ -111,7 +111,7 @@ const Article = () => (
     </P>
 
     <P>
-      The reason for that is obivous, a long well written article with extensive
+      The reason for that is obvious, a long well written article with extensive
       content is part of an SEO strategy, it's just controversial enough to
       generate buzz and virality, increasing the author's audience reach which
       ultimately drives sales of his products up. An article about the impact of
@@ -125,13 +125,12 @@ const Article = () => (
       Now, there's still useful information in articles like these, it is up to
       the reader to figure out how to utilize such information. It is however
       concerning how there's a flood of shallow content geared towards queries
-      such as 'Typescript pros and cons' or 'Typescript vs Javascript' which
+      such as 'Typescript pros and cons' or 'Typescript vs JavaScript' which
       ultimately cause significant decisions to be made in companies for the
       sake of SEO. Since Google's update to its algorithms to prioritize long
       form content, even simple queries about small technical questions such as
-      library references documentation will have lenghtened but otherwise thin
-      articles ranking above canonical information or useful StackOverflow
-      threads.
+      library references documentation will have lengthened but otherwise thin
+      articles ranking above canonical information or useful StackOverflow threads.
     </P>
 
     <P>
