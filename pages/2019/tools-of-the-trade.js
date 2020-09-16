@@ -89,8 +89,8 @@ const Article = () => (
       sticks, while centralizing within a content network makes it easier to
       aggregate views, I found it to encourage simpler, "buzzwordy" pieces of
       content that most of the time are not valuable. It also goes against the
-      initial goals of the web, as Medium also adds bigger pop-ups and footers to
-      increase subscription rates and app install counts, it has lost some of
+      initial goals of the web, as Medium also adds bigger pop-ups and footers
+      to increase subscription rates and app install counts, it has lost some of
       its initial allure that promised a clean, content-focused website, and, as
       a developer, I found it a good hobby to maintain my own website.
     </P>
