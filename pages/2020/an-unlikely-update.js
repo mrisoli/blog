@@ -25,10 +25,10 @@ const Article = () => (
     </P>
 
     <P>
-      This all happened just before COVID-19 spread around the world and
-      lock downs started happening, while my first month in Barcelona was
-      exciting and promising it was followed by a strict lock down and I, like
-      many others, have been working remote ever since.
+      This all happened just before COVID-19 spread around the world and lock
+      downs started happening, while my first month in Barcelona was exciting
+      and promising it was followed by a strict lock down and I, like many
+      others, have been working remote ever since.
     </P>
 
     <P>

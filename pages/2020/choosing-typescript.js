@@ -130,7 +130,8 @@ const Article = () => (
       sake of SEO. Since Google's update to its algorithms to prioritize long
       form content, even simple queries about small technical questions such as
       library references documentation will have lengthened but otherwise thin
-      articles ranking above canonical information or useful StackOverflow threads.
+      articles ranking above canonical information or useful StackOverflow
+      threads.
     </P>
 
     <P>
