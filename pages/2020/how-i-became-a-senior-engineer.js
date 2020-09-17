@@ -36,7 +36,7 @@ const Article = () => (
     <P>
       During university I also participated as a research assistant in a project
       about DSLs for code generation with UML diagrams, most of my work
-      consistent in doing some learning to catch up to the project goals, the
+      consisted in doing some learning to catch up to the project goals, the
       project was cut short when the professor responsible for it left as he got
       an offer to join Google.
     </P>
@@ -56,7 +56,7 @@ const Article = () => (
       I graduated in 2012 with little experience and a not very promising job
       market and economy, a group of university colleagues were starting a
       company and I joined them and we formed a group of 5 computer science
-      students, we discussed several projects and decided to work on our idea of
+      students. We discussed several projects and decided to work on our idea of
       a travel-focused social network to help connect fellow travelers and help
       people book their vacation needs.
     </P>
