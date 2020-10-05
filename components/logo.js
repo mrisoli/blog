@@ -4,7 +4,7 @@ const Logo = () => (
     <div className="svg-container">
       <SvgLogo />
     </div>
-    risoli.co
+    risoli.dev
     <style jsx>{`
       span {
         font-weight: bold;
