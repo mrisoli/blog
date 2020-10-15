@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Header from '../header'
-import Analytics from '../analytics'
 import reset from '../../css/reset'
 import typography from '../../css/typography'
 import colors from '../../css/colors'
@@ -13,8 +12,22 @@ const Layout = ({children}) => {
           href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&family=Roboto&display=swap"
           rel="stylesheet"
         />
-        <link rel="shortcut icon" href="/static/favicon.ico" />
-        <Analytics />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-86504769-1"
+        />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'UA-86504769-1');
+            `,
+          }}
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script
           data-name="BMC-Widget"

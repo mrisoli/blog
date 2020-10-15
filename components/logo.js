@@ -1,8 +1,7 @@
-import SvgLogo from '../static/logo.svg'
 const Logo = () => (
   <span>
     <div className="svg-container">
-      <SvgLogo />
+      <img src='/logo.svg' />
     </div>
     risoli.dev
     <style jsx>{`
