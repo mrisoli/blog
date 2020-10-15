@@ -2,7 +2,7 @@ To run locally, `yarn`, then `yarn dev`, then open https://localhost:8000.
 
 # blog
 
-This is my personal blog `risoli.co`, built on
+This is my personal blog `risoli.dev`, built on
 [next.js](https://nextjs.org/) and
 deployed to the cloud via [Vercel](https://vercel.com).
 
