@@ -1,6 +1,6 @@
 import Page from './main'
 
-export default ({children}) => (
+const Post = ({children}) => (
   <Page>
     <main>
       <article>{children}</article>
@@ -18,3 +18,5 @@ export default ({children}) => (
     `}</style>
   </Page>
 )
+
+export default Post

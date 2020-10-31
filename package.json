@@ -8,14 +8,14 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
-    "next": "^9.5.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "next": "10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
     "time-ago": "^0.2.1"
   },
   "license": "MIT",
   "devDependencies": {
-    "babel-plugin-inline-react-svg": "^1.1.1",
-    "prettier": "^2.1.1"
+    "babel-plugin-inline-react-svg": "1.1.2",
+    "prettier": "^2.1.2"
   }
 }
