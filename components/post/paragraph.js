@@ -1,4 +1,4 @@
-export default ({children}) => (
+const Paragraph = ({children}) => (
   <p>
     {children}
     <style jsx>{`
@@ -9,3 +9,5 @@ export default ({children}) => (
     `}</style>
   </p>
 )
+
+export default Paragraph

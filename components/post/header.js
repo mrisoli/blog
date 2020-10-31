@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 import dynamic from 'next/dynamic'
 import TimeAgo from '../time-ago'
 
-export default ({title, date}) => {
+const Header = ({title, date}) => {
   return (
     <main>
       <Head>
@@ -115,3 +115,5 @@ export default ({title, date}) => {
     </main>
   )
 }
+
+export default Header
