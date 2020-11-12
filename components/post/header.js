@@ -19,7 +19,7 @@ const Header = ({title, date}) => {
             href="https://twitter.com/mgrisoli"
             target="_blank"
           >
-            <img src="https://s.gravatar.com/avatar/32580804f6456560f81f199391cf6c40?s=80" />
+            <img src="https://s.gravatar.com/avatar/32580804f6456560f81f199391cf6c40?s=80" alt="gravatar author photo" />
             mrisoli
           </a>
 
