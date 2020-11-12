@@ -1,10 +1,12 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 import Header from '../header'
 import reset from '../../css/reset'
 import typography from '../../css/typography'
 import colors from '../../css/colors'
 
-const Layout = ({children}) => {
+const Layout = ({children }) => {
+  const router = useRouter()
   return (
     <main>
       <Head>
@@ -29,6 +31,7 @@ const Layout = ({children}) => {
           }}
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Personal Blog by Marcelo Risoli. I talk tech" />
         <script
           data-name="BMC-Widget"
           src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
@@ -40,6 +43,7 @@ const Layout = ({children}) => {
           data-x_margin="18"
           data-y_margin="18"
         ></script>
+        <link rel="canonical" href={`https://risoli.dev${router.pathname}`} />
         <title>Marcelo Risoli's blog</title>
       </Head>
 

@@ -1,7 +1,7 @@
 const Logo = () => (
   <span>
     <div className="svg-container">
-      <img src="/logo.svg" />
+      <img src="/logo.svg" alt="black right triangle logo"/>
     </div>
     risoli.dev
     <style jsx>{`
