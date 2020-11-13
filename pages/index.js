@@ -3,9 +3,7 @@ import PostList from '../components/post-list'
 
 const Home = () => (
   <Layout>
-    <ul>
-      <PostList />
-    </ul>
+    <PostList />
   </Layout>
 )
 
