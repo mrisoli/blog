@@ -10,10 +10,10 @@ const Header = () => (
     </Link>
 
     <nav>
-      <a className="src" target="_blank" href="https://github.com/mrisoli/blog">
+      <a className="src" rel="noopener" target="_blank" href="https://github.com/mrisoli/blog">
         Source
       </a>
-      <a className="follow" target="_blank" href="https://twitter.com/mgrisoli">
+      <a className="follow" rel="noopener" target="_blank" href="https://twitter.com/mgrisoli">
         Follow Me
       </a>
     </nav>
