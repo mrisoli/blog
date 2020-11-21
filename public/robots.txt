@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://risoli.dev/sitemap.xml
+Host: https://risoli.dev
