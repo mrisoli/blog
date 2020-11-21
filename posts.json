@@ -1,6 +1,11 @@
 {
   "posts": [
     {
+      "id": "office-hours",
+      "date": "November 20, 2020",
+      "title": "Office Hours"
+    },
+    {
       "id": "on-tech-interviews",
       "date": "October 30, 2020",
       "title": "On Tech Interviews"
