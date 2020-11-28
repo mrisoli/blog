@@ -36,13 +36,13 @@ export default function MyApp({ Component, pageProps }) {
         <meta property="og:url" content="https://risoli.dev/" />
         <meta property="og:title" content="Marcelo Risoli Blog" />
         <meta property="og:description" content="Personal Blog by Marcelo Risoli. I talk tech." />
-        <meta property="og:image" content="https://s.gravatar.com/avatar/32580804f6456560f81f199391cf6c40?s=80" />
+        <meta property="og:image" content="https://en.gravatar.com/userimage/52005801/f8d14e95204e2d58667419f1d3a9b29c.jpg?size=2048" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://twitter.com/mgrisoli" />
         <meta property="twitter:title" content="Marcelo Risoli Blog" />
         <meta property="twitter:description" content="Personal Blog by Marcelo Risoli. I talk tech." />
-        <meta property="twitter:image" content="https://s.gravatar.com/avatar/32580804f6456560f81f199391cf6c40?s=80" />
+        <meta property="twitter:image" content="https://en.gravatar.com/userimage/52005801/f8d14e95204e2d58667419f1d3a9b29c.jpg?size=2048" />
 
         <script
           data-name="BMC-Widget"
