@@ -13,7 +13,10 @@ const Header = () => (
       <a className="src" rel="noopener" target="_blank" href="https://github.com/mrisoli/blog">
         Source
       </a>
-      <a className="follow" rel="noopener" target="_blank" href="https://twitter.com/mgrisoli">
+      <a className="button" rel="noopener" target="_blank" href="https://twitter.com/mgrisoli">
+        Office Hours
+      </a>
+      <a className="button" rel="noopener" target="_blank" href="https://twitter.com/mgrisoli">
         Follow Me
       </a>
     </nav>
@@ -36,7 +39,7 @@ const Header = () => (
         font-size: 13px;
         color: #333;
       }
-      nav a.follow {
+      nav a.button {
         font-weight: bold;
         color: #fff;
         background: #000;
@@ -55,6 +58,15 @@ const Header = () => (
         }
         a.logo:active {
           background-color: #fff445;
+        }
+      }
+      @media (max-width: 500px) {
+        nav {
+          display: flex;
+          flex-direction: column;
+        }
+        nav a:not(:last-child) {
+          margin-bottom: 5px;
         }
       }
       @media (min-width: 500px) {
