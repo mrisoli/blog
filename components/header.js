@@ -13,7 +13,7 @@ const Header = () => (
       <a className="src" rel="noopener" target="_blank" href="https://github.com/mrisoli/blog">
         Source
       </a>
-      <a className="button" rel="noopener" target="_blank" href="https://twitter.com/mgrisoli">
+      <a className="button" rel="noopener" target="_blank" href="https://calendly.com/mrisoli/officehours">
         Office Hours
       </a>
       <a className="button" rel="noopener" target="_blank" href="https://twitter.com/mgrisoli">
