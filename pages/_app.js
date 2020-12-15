@@ -27,6 +27,8 @@ export default function MyApp({ Component, pageProps }) {
             `,
           }}
         />
+        <script async defer data-domain="risoli.dev" src="https://plausible.io/js/plausible.js"></script>
+
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Personal Blog by Marcelo Risoli. I talk tech" />
         <meta name="keywords" content="Blog, Tech, Marcelo Risoli" />
