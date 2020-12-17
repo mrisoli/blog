@@ -55,6 +55,7 @@ const Header = () => (
       @media (any-hover: hover) {
         a.logo:hover {
           background-color: var(--link-highlight);
+          color: var(--link-highlight-text);
         }
         a.logo:active {
           background-color: var(--logo-background-color-active);

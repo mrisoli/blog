@@ -6,6 +6,7 @@ const style  = css.global`
     --primary-color: #000;
     --link-color: #0c00ff;
     --link-highlight: yellow;
+    --link-highlight-text: #000;
     --meta-text-color: #4f4f4f;
     --ui-item-color: #5b5b5b;
     --ui-item-color-hover: #eee;
@@ -24,6 +25,7 @@ const style  = css.global`
     --primary-color: #D8DEE9;
     --link-color: #88C0D0;
     --link-highlight: #EBCB8B;
+    --link-highlight-text: #2E3440;
     --meta-text-color: #81A1C1;
     --ui-item-color: #E5E9F0;
     --ui-item-color-hover: #E5E9F0;
