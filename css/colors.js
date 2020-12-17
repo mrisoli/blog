@@ -23,8 +23,8 @@ const style  = css.global`
     --bg-color: #2E3440;
     --primary-color: #D8DEE9;
     --link-color: #88C0D0;
-    --link-highlight: yellow;
-    --meta-text-color: #4C566A;
+    --link-highlight: #EBCB8B;
+    --meta-text-color: #81A1C1;
     --ui-item-color: #E5E9F0;
     --ui-item-color-hover: #E5E9F0;
     --ui-item-color-active: #81A1C1;
