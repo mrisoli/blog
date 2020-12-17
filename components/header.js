@@ -37,17 +37,17 @@ const Header = () => (
       }
       nav a.src {
         font-size: 13px;
-        color: #333;
+        color: var(--nav-link-color);
       }
       nav a.button {
         font-weight: bold;
-        color: #fff;
-        background: #000;
+        color: var(--nav-button-text-color);
+        background-color: var(--nav-button-background-color);
         font-size: 13px;
       }
       a.logo {
         text-decoration: none;
-        color: #000;
+        color: var(--logo-text-color);
         display: inline-flex;
         transition: 150ms background-color ease;
         padding: 5px;
@@ -57,7 +57,7 @@ const Header = () => (
           background-color: var(--link-highlight);
         }
         a.logo:active {
-          background-color: #fff445;
+          background-color: var(--logo-background-color-active);
         }
       }
       @media (max-width: 500px) {

@@ -17,7 +17,7 @@ const PostList = () => {
           padding: 10px 15px;
         }
         ul li span {
-          color: #5b5b5b;
+          color: var(--ui-item-color);
           display: block;
           font-size: 13px;
         }
@@ -28,10 +28,10 @@ const PostList = () => {
         }
         @media (any-hover: hover) {
           ul li a:hover {
-            background: #eee;
+            background-color: var(--ui-item-color-hover);
           }
           ul li a:active {
-            background: #ccc;
+            background-color: var(--ui-item-color-active);
           }
         }
         @media (min-width: 500px) {
