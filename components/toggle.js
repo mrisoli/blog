@@ -1,6 +1,8 @@
 import { useCallback } from 'react'
 import Toggle from 'react-toggle'
 
+import Moon from '../components/icons/moon'
+import Sun from '../components/icons/sun'
 import useDarkMode from '../hooks/use-dark-mode'
 
 export const DarkModeToggle = () => {
@@ -13,6 +15,10 @@ export const DarkModeToggle = () => {
       <Toggle
         aria-label="Switch between Dark and Light mode"
         defaultChecked={darkMode}
+        icons={{
+          checked: <Moon />,
+          unchecked: <Sun />,
+        }}
         onChange={handleChange}
       />
       <style jsx>{`
@@ -71,11 +77,11 @@ export const DarkModeToggle = () => {
           }
 
           div :global(.react-toggle--checked .react-toggle-track) {
-              background-color: #19AB27;
+              background-color: #4C566A;
           }
 
           div :global(.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track) {
-              background-color: #128D15;
+              background-color: #434C5E;
           }
 
           div :global(.react-toggle-track-check) {
@@ -143,13 +149,13 @@ export const DarkModeToggle = () => {
 
           div :global(.react-toggle--checked .react-toggle-thumb) {
               left: 27px;
-              border-color: #19AB27;
+              border-color: #4C566A;
           }
 
           div :global(.react-toggle--focus .react-toggle-thumb) {
-              -webkit-box-shadow: 0px 0px 3px 2px #0099E0;
-              -moz-box-shadow: 0px 0px 3px 2px #0099E0;
-              box-shadow: 0px 0px 2px 3px #0099E0;
+              -webkit-box-shadow: 0px 0px 3px 2px #81A1C1;
+              -moz-box-shadow: 0px 0px 3px 2px #81A1C1;
+              box-shadow: 0px 0px 2px 3px #81A1C1;
           }
 
           div :global(.react-toggle:active:not(.react-toggle--disabled) .react-toggle-thumb) {
