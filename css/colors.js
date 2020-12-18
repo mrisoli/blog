@@ -42,6 +42,7 @@ const style  = css.global`
   body {
     background-color: var(--bg-color);
     color: var(--primary-color);
+    transition: color 0.2s ease-out, background 0.2s ease-out;
   }
 
   ::selection {
