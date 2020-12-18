@@ -20,7 +20,7 @@ const style  = css.global`
     --text-selection-color: #fff;
   }
 
-  [data-theme="dark"] {
+  body.dark-mode {
     --bg-color: #2E3440;
     --primary-color: #D8DEE9;
     --link-color: #88C0D0;
@@ -42,6 +42,7 @@ const style  = css.global`
   body {
     background-color: var(--bg-color);
     color: var(--primary-color);
+    transition: color 0.2s ease-out, background 0.2s ease-out;
   }
 
   ::selection {

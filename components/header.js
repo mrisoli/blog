@@ -1,5 +1,6 @@
 import Logo from './logo'
 import Link from 'next/link'
+import { DarkModeToggle } from './toggle'
 
 const Header = () => (
   <header>
@@ -10,6 +11,7 @@ const Header = () => (
     </Link>
 
     <nav>
+      <DarkModeToggle />
       <a className="src" rel="noopener" target="_blank" href="https://github.com/mrisoli/blog">
         Source
       </a>
@@ -27,6 +29,8 @@ const Header = () => (
         align-items: center;
       }
       nav {
+        align-items: center;
+        display: flex;
         padding: 10px 0 10px 5px;
       }
       nav a {
@@ -63,6 +67,7 @@ const Header = () => (
       }
       @media (max-width: 500px) {
         nav {
+          align-items: stretch;
           display: flex;
           flex-direction: column;
         }
