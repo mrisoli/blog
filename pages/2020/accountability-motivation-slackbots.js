@@ -1,5 +1,3 @@
-import ReactEmbedGist from 'react-embed-gist'
-
 import Post from '../../components/layouts/post'
 import Header from '../../components/post/header'
 import H2 from '../../components/post/heading'
@@ -90,7 +88,11 @@ const Article = () => (
       Since Advent of Code has a pretty simple API for private leaderboards, it
       was easy enough to just query the API and filter all the completions with
       a timestamp larger than the previous time checked, then format the message
-      and post to a Slack webhook, this is a gist of the final code:
+      and post to a Slack webhook, so I wrote a{' '}
+      <a href={links[4]} target="_blank">
+        simple Python function
+      </a>
+      .
     </P>
 
     <ReactEmbedGist gist="mrisoli/6fe4d6e6acf6538a406de83570e187b3" />
@@ -130,7 +132,7 @@ const Article = () => (
       didn't exactly get as many people motivated, but it worked for me, I
       managed to get further into this years puzzles than ever before. You can
       check my Advent of Code puzzle solutions{' '}
-      <a href={links[4]} target="_blank">
+      <a href={links[5]} target="_blank">
         here
       </a>
       .
@@ -142,6 +144,7 @@ const links = [
   'https://strava.com/',
   'https://zapier.com/',
   'https://slava.playplay.io/',
+  'https://gist.github.com/mrisoli/6fe4d6e6acf6538a406de83570e187b3',
   'https://github.com/mrisoli/adventofcode',
 ]
 
