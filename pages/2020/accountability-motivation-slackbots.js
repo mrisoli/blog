@@ -95,8 +95,6 @@ const Article = () => (
       .
     </P>
 
-    <ReactEmbedGist gist="mrisoli/6fe4d6e6acf6538a406de83570e187b3" />
-
     <P>
       To get it working all that is necessary is exporting a YEAR variable(for
       the year to checked), a LEADERBOARD_ID variable, which can be found in the
