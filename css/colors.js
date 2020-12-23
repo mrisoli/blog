@@ -1,6 +1,6 @@
 import css from 'styled-jsx/css'
 
-const style  = css.global`
+const style = css.global`
   :root {
     --bg-color: #fff;
     --primary-color: #000;
@@ -21,20 +21,20 @@ const style  = css.global`
   }
 
   body.dark-mode {
-    --bg-color: #2E3440;
-    --primary-color: #D8DEE9;
-    --link-color: #88C0D0;
-    --link-highlight: #EBCB8B;
-    --link-highlight-text: #2E3440;
-    --meta-text-color: #81A1C1;
-    --ui-item-color: #E5E9F0;
-    --ui-item-color-hover: #E5E9F0;
-    --ui-item-color-active: #81A1C1;
-    --nav-link-color: #ECEFF4;
-    --nav-button-text-color: #3B4252;
-    --nav-button-background-color: #D8DEE9;
-    --logo-text--color: #ECEFF4;
-    --logo-background-color-active: #EBCB8B;
+    --bg-color: #2e3440;
+    --primary-color: #d8dee9;
+    --link-color: #88c0d0;
+    --link-highlight: #ebcb8b;
+    --link-highlight-text: #2e3440;
+    --meta-text-color: #81a1c1;
+    --ui-item-color: #e5e9f0;
+    --ui-item-color-hover: #e5e9f0;
+    --ui-item-color-active: #81a1c1;
+    --nav-link-color: #eceff4;
+    --nav-button-text-color: #3b4252;
+    --nav-button-background-color: #d8dee9;
+    --logo-text--color: #eceff4;
+    --logo-background-color-active: #ebcb8b;
     --text-selection-background-color: #0070f3;
     --text-selection-color: #fff;
   }

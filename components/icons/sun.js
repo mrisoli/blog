@@ -1,5 +1,3 @@
-const Sun = () => (
-  <img src="/sun.svg" />
-)
+const Sun = () => <img src="/sun.svg" />
 
 export default Sun

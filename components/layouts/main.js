@@ -3,7 +3,7 @@ import reset from '../../css/reset'
 import typography from '../../css/typography'
 import colors from '../../css/colors'
 
-const Layout = ({children }) => {
+const Layout = ({children}) => {
   return (
     <main>
       <style jsx global>
