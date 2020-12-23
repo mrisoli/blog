@@ -1,12 +1,12 @@
 import Link from 'next/link'
-import { useRouter } from 'next/router'
+import {useRouter} from 'next/router'
 
-import { posts } from '../../posts'
+import {posts} from '../../posts'
 
 import Page from './main'
 
 const Post = ({children}) => {
-  const { pathname } = useRouter()
+  const {pathname} = useRouter()
   const postId = pathname.split('/')[2]
   const index = posts.findIndex(post => post.id == postId)
   const prevPost = posts[index + 1]
@@ -18,14 +18,22 @@ const Post = ({children}) => {
       </main>
       <footer>
         <div className="nav-link">
-          {prevPost && <Link href={`/${new Date(prevPost.date).getFullYear()}/${prevPost.id}`}>
-            <a> ← {prevPost.title}</a>
-          </Link>}
+          {prevPost && (
+            <Link
+              href={`/${new Date(prevPost.date).getFullYear()}/${prevPost.id}`}
+            >
+              <a> ← {prevPost.title}</a>
+            </Link>
+          )}
         </div>
         <div className="nav-link">
-          {nextPost && <Link href={`/${new Date(nextPost.date).getFullYear()}/${nextPost.id}`}>
-            <a>{nextPost.title} →</a>
-          </Link>}
+          {nextPost && (
+            <Link
+              href={`/${new Date(nextPost.date).getFullYear()}/${nextPost.id}`}
+            >
+              <a>{nextPost.title} →</a>
+            </Link>
+          )}
         </div>
       </footer>
 

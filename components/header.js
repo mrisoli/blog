@@ -1,6 +1,6 @@
 import Logo from './logo'
 import Link from 'next/link'
-import { DarkModeToggle } from './toggle'
+import {DarkModeToggle} from './toggle'
 
 const Header = () => (
   <header>
@@ -12,13 +12,28 @@ const Header = () => (
 
     <nav>
       <DarkModeToggle />
-      <a className="src" rel="noopener" target="_blank" href="https://github.com/mrisoli/blog">
+      <a
+        className="src"
+        rel="noopener"
+        target="_blank"
+        href="https://github.com/mrisoli/blog"
+      >
         Source
       </a>
-      <a className="button" rel="noopener" target="_blank" href="https://calendly.com/mrisoli/officehours">
+      <a
+        className="button"
+        rel="noopener"
+        target="_blank"
+        href="https://calendly.com/mrisoli/officehours"
+      >
         Office Hours
       </a>
-      <a className="button" rel="noopener" target="_blank" href="https://twitter.com/mgrisoli">
+      <a
+        className="button"
+        rel="noopener"
+        target="_blank"
+        href="https://twitter.com/mgrisoli"
+      >
         Follow Me
       </a>
     </nav>

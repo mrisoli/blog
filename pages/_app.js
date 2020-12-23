@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import { useRouter } from 'next/router'
+import {useRouter} from 'next/router'
 
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp({Component, pageProps}) {
   const router = useRouter()
   return (
     <>
@@ -27,24 +27,46 @@ export default function MyApp({ Component, pageProps }) {
             `,
           }}
         />
-        {process.browser && <script async defer data-domain="risoli.dev" src="https://plausible.io/js/plausible.js"></script>}
+        {process.browser && (
+          <script
+            async
+            defer
+            data-domain="risoli.dev"
+            src="https://plausible.io/js/plausible.js"
+          ></script>
+        )}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Personal Blog by Marcelo Risoli. I talk tech" />
+        <meta
+          name="description"
+          content="Personal Blog by Marcelo Risoli. I talk tech"
+        />
         <meta name="keywords" content="Blog, Tech, Marcelo Risoli" />
         <meta name="theme-color" content="#000000" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://risoli.dev/" />
         <meta property="og:title" content="Marcelo Risoli Blog" />
-        <meta property="og:description" content="Personal Blog by Marcelo Risoli. I talk tech." />
-        <meta property="og:image" content="https://en.gravatar.com/userimage/52005801/f8d14e95204e2d58667419f1d3a9b29c.jpg?size=2048" />
+        <meta
+          property="og:description"
+          content="Personal Blog by Marcelo Risoli. I talk tech."
+        />
+        <meta
+          property="og:image"
+          content="https://en.gravatar.com/userimage/52005801/f8d14e95204e2d58667419f1d3a9b29c.jpg?size=2048"
+        />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://twitter.com/mgrisoli" />
         <meta property="twitter:title" content="Marcelo Risoli Blog" />
-        <meta property="twitter:description" content="Personal Blog by Marcelo Risoli. I talk tech." />
-        <meta property="twitter:image" content="https://en.gravatar.com/userimage/52005801/f8d14e95204e2d58667419f1d3a9b29c.jpg?size=2048" />
+        <meta
+          property="twitter:description"
+          content="Personal Blog by Marcelo Risoli. I talk tech."
+        />
+        <meta
+          property="twitter:image"
+          content="https://en.gravatar.com/userimage/52005801/f8d14e95204e2d58667419f1d3a9b29c.jpg?size=2048"
+        />
 
         <script
           data-name="BMC-Widget"

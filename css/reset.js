@@ -73,6 +73,10 @@ const style = css.global`
     font: inherit;
   }
 
+  img {
+    max-width: 100%;
+  }
+
   /* Remove all animations and transitions for people that prefer not to see them */
   @media (prefers-reduced-motion: reduce) {
     * {

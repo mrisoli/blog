@@ -5,6 +5,11 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://risoli.dev/2020/accountability-motivation-slackbots</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
     <loc>https://risoli.dev/2020/office-hours</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
