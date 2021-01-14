@@ -27,14 +27,6 @@ export default function MyApp({Component, pageProps}) {
             `,
           }}
         />
-        {process.browser && (
-          <script
-            async
-            defer
-            data-domain="risoli.dev"
-            src="https://plausible.io/js/plausible.js"
-          ></script>
-        )}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
