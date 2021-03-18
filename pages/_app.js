@@ -11,19 +11,17 @@ export default function MyApp({Component, pageProps}) {
           rel="stylesheet"
         />
         <link rel="shortcut icon" href="/favicon.ico" />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-86504769-1"
-        />
         <link rel="manifest" href="/manifest.json" />
 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86504769-2"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'UA-86504769-1');
+
+              gtag('config', 'UA-86504769-2');
             `,
           }}
         />
