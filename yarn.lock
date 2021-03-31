@@ -983,7 +983,7 @@
 
 "@typeform/embed@^1.0.2":
   version "1.0.2"
-  resolved "https://npm.pkg.github.com/download/@typeform/embed/1.0.2/a046638ed25dda2227a3453b695661aaba80bd84ab129b1a3b62daf6dcf05cd3#4eb91acb58ea5bd1cc73f18e9e6d43843b357cc2"
+  resolved "https://registry.yarnpkg.com/@typeform/embed/-/embed-1.0.2.tgz#4eb91acb58ea5bd1cc73f18e9e6d43843b357cc2"
   integrity sha512-dlwvlK5BQv0YZmoMQNFjObrzru86JwGaWE68mnOzCASTB2ULKNaBlWfn/4v8Eddz5X2LiHu4NTHjx3zjQuQMvA==
 
 "@types/anymatch@*":
