@@ -13,7 +13,10 @@ export default function MyApp({Component, pageProps}) {
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86504769-2"></script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-86504769-2"
+        ></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
