@@ -1,6 +1,6 @@
 import Post from '../../components/layouts/post'
 import Header from '../../components/post/header'
-import H2, {H3} from '../../components/post/heading'
+import H2  from '../../components/post/heading'
 import P from '../../components/post/paragraph'
 import PreziDesign from '../../components/prezi'
 import Typeform from '../../components/typeform'
