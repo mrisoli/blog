@@ -1,6 +1,11 @@
 {
   "posts": [
     {
+      "id": "a-year-in-nomad",
+      "date": "January 12, 2022",
+      "title": "Nomad, a year in"
+    },
+    {
       "id": "no-code-mashup",
       "date": "April 23, 2021",
       "title": "No code mashup"
