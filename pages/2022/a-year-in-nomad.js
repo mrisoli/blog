@@ -20,7 +20,7 @@ const Article = () => (
         Of course it is indeed more expensive to not have a fixed residence in the long term, it's a tradeoff for flexibility. In previous years I had to leave apartments early leading to losing part of my deposits. Barcelona is also infamous for having high contract fees when signing a new apartment contract, roughly 10% of the annual value + fees, so in the end it kind of evens out, below you can see my living expenses in full detail.
       </P>
 
-      <H2>Full list of 2022 stays</H2>
+      <H2>Full list of 2021 stays</H2>
 
       <P>
         This list includes only places I was renting as a primary residence, I usually book apartments through Airbnb or Booking, and Hotels in Accor:
