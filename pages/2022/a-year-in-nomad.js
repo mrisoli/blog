@@ -6,7 +6,7 @@ import P from '../../components/post/paragraph'
 const Article = () => (
   <>
     <Post>
-      <Header title="Nomad, a year in" date="January 12, 2021" />
+      <Header title="Nomad, a year in" date="January 12, 2022" />
 
 
       <P>
