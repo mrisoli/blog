@@ -34,6 +34,6 @@ const Article = () => (
   </Post>
 )
 
-const links = ['https://calendly.com/mrisoli/officehours']
+const links = ['https://calendly.com/mrisoli']
 
 export default Article

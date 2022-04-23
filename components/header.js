@@ -24,7 +24,7 @@ const Header = () => (
         className="button"
         rel="noopener"
         target="_blank"
-        href="https://calendly.com/mrisoli/officehours"
+        href="https://calendly.com/mrisoli"
       >
         Office Hours
       </a>
