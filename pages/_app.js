@@ -14,17 +14,13 @@ export default function MyApp({Component, pageProps}) {
         <link rel="manifest" href="/manifest.json" />
 
         <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-86504769-2"
-        ></script>
-        <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
-              gtag('config', 'UA-86504769-2');
+              gtag('config', 'G-ZE55BQV2RQ');
             `,
           }}
         />
