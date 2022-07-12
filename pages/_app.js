@@ -11,6 +11,19 @@ export default function MyApp({Component, pageProps}) {
           href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&family=Roboto&display=swap"
           rel="stylesheet"
         />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZE55BQV2RQ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+            {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-ZE55BQV2RQ');
+          `}
+        </Script>
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
 
@@ -62,19 +75,6 @@ export default function MyApp({Component, pageProps}) {
         <title>Marcelo Risoli's blog</title>
       </Head>
       <Component {...pageProps} />
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-ZE55BQV2RQ"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-ZE55BQV2RQ');
-        `}
-      </Script>
     </>
   )
 }
