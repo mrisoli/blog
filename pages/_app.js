@@ -11,19 +11,6 @@ export default function MyApp({Component, pageProps}) {
           href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&family=Roboto&display=swap"
           rel="stylesheet"
         />
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-ZE55BQV2RQ"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-            {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-ZE55BQV2RQ');
-          `}
-        </Script>
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
 
@@ -59,21 +46,35 @@ export default function MyApp({Component, pageProps}) {
           content="https://en.gravatar.com/userimage/52005801/f8d14e95204e2d58667419f1d3a9b29c.jpg?size=2048"
         />
 
-        <script
-          data-name="BMC-Widget"
-          src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-          data-id="risoli"
-          data-description="Support me on Buy me a coffee!"
-          data-message="If you would like to support me, buy me a coffee!"
-          data-color="#FF813F"
-          data-position=""
-          data-x_margin="18"
-          data-y_margin="18"
-        ></script>
         <link rel="canonical" href={`https://risoli.dev${router.pathname}`} />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <title>Marcelo Risoli's blog</title>
       </Head>
+      <script
+        data-name="BMC-Widget"
+        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        id="buy-me-a-coffee"
+        data-id="risoli"
+        data-description="Support me on Buy me a coffee!"
+        data-message="If you would like to support me, buy me a coffee!"
+        data-color="#FF813F"
+        data-position=""
+        data-x_margin="18"
+        data-y_margin="18"
+      ></script>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-ZE55BQV2RQ"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-ZE55BQV2RQ');
+        `}
+      </Script>
       <Component {...pageProps} />
     </>
   )

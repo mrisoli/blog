@@ -1,10 +1,10 @@
 import Link from 'next/link'
-import {posts} from '../posts'
+import json from '../posts'
 
 const PostList = () => {
   return (
     <ul>
-      {posts.map(post => (
+      {json.posts.map(post => (
         <li key={post.id}>
           <span>{post.date}</span>
           <Link href={`${new Date(post.date).getFullYear()}/${post.id}`}>

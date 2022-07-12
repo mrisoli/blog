@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import {useRouter} from 'next/router'
 
-import {posts} from '../../posts'
+import json from '../../posts'
 
 import Page from './main'
 
 const Post = ({children}) => {
+  const { posts } = json
   const {pathname} = useRouter()
   const postId = pathname.split('/')[2]
   const index = posts.findIndex(post => post.id == postId)
