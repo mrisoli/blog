@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -8,18 +8,18 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
-    "@typeform/embed": "^1.0.2",
-    "next": "12.1.0",
-    "next-pwa": "5.2.14",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "@typeform/embed": "^1.36.0",
+    "next": "12.2.2",
+    "next-pwa": "5.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-toggle": "4.1.2",
     "time-ago": "^0.2.1"
   },
   "license": "MIT",
   "devDependencies": {
     "babel-plugin-inline-react-svg": "2.0.1",
-    "prettier": "^2.2.1",
+    "prettier": "^2.7.1",
     "prop-types": "^15.8.1"
   }
 }
