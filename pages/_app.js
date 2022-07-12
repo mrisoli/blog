@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import {useRouter} from 'next/router'
 
 export default function MyApp({Component, pageProps}) {
@@ -12,18 +13,19 @@ export default function MyApp({Component, pageProps}) {
         />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
-
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-ZE55BQV2RQ');
-            `,
-          }}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZE55BQV2RQ"
+          strategy="afterInteractive"
         />
+        <Script id="google-analytics" strategy="afterInteractive">
+            {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-ZE55BQV2RQ');
+          `}
+        </Script>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
