@@ -13,19 +13,6 @@ export default function MyApp({Component, pageProps}) {
         />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-ZE55BQV2RQ"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-            {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-ZE55BQV2RQ');
-          `}
-        </Script>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
@@ -75,6 +62,19 @@ export default function MyApp({Component, pageProps}) {
         <title>Marcelo Risoli's blog</title>
       </Head>
       <Component {...pageProps} />
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-ZE55BQV2RQ"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-ZE55BQV2RQ');
+        `}
+      </Script>
     </>
   )
 }
